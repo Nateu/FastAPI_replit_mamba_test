@@ -1,1 +1,1 @@
-run = "make test"
+run = "make"

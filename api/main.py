@@ -9,7 +9,7 @@ host = "https://fastapi.nateucodes.repl.co/"
 
 @app.get("/")
 def read_root():
-    return {"skills_url": host + "skill/"}
+    return {"skill_url": host + "skill/"}
 
 
 @app.get("/skill/")

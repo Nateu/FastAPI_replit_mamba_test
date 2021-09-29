@@ -1,10 +1,11 @@
-run: api test
+default:
+	bash run_tests.sh
 
 test:
-	poetry run mamba --format=documentation --enable-coverage specs/*_spec.py && coverage html
+	bash run_tests.sh
 
 api:
-	cd /home/runner/FastAPI/api && uvicorn main:app --reload --host 0.0.0.0 --port 8080 &
+	bash run_api.sh
 
-cov:
-	nohup python -m http.server 8000 -d htmlcov &
+serve:
+	bash serve.sh
