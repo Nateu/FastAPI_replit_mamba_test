@@ -1,0 +1,5 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+source = ./api, ./specs
+omit = ./api/__init__.py

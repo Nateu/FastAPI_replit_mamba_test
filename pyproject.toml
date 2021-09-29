@@ -7,8 +7,14 @@ authors = ["NateuCodes"]
 [tool.poetry.dependencies]
 python = "^3.8"
 fastapi = "^0.68.1"
+expects = "^0.9.0"
+mamba = "^0.11.2"
 
 [tool.poetry.dev-dependencies]
+uvicorn = "^0.15.0"
+mamba = "^0.11.2"
+expects = "^0.9.0"
+coverage = "^5.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
