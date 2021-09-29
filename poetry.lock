@@ -105,6 +105,14 @@ clint = "*"
 coverage = "*"
 
 [[package]]
+name = "mockito"
+version = "1.2.2"
+description = "Spying framework"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pydantic"
 version = "1.8.2"
 description = "Data validation and settings management using python 3.6 type hinting"
@@ -157,7 +165,7 @@ standard = ["websockets (>=9.1)", "httptools (>=0.2.0,<0.3.0)", "watchgod (>=0.6
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "5361552a4c1421904b4471df12ba31540b8967965320af08620f30e49beae2a7"
+content-hash = "68c04b89e6068224dc9fb4b2865b835f5cd1272faa7611b3b6287727cf733565"
 
 [metadata.files]
 args = [
@@ -245,6 +253,9 @@ h11 = [
 ]
 mamba = [
     {file = "mamba-0.11.2.tar.gz", hash = "sha256:75cfc6dfd287dcccaf86dd753cf48e0a7337487c7c3fafda05a6a67ded6da496"},
+]
+mockito = [
+    {file = "mockito-1.2.2.tar.gz", hash = "sha256:d6b3aca6cdb92bbd47e19ebdb1a0b84ef23ab874eae5c6d505323c8657257c06"},
 ]
 pydantic = [
     {file = "pydantic-1.8.2-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:05ddfd37c1720c392f4e0d43c484217b7521558302e7069ce8d318438d297739"},

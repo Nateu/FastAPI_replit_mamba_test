@@ -1,2 +1,2 @@
 from .main import app, host
-from .skills_manager import SkillsManager
+from .skill_manager import Skill, SkillManager

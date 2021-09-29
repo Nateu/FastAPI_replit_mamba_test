@@ -9,6 +9,7 @@ python = "^3.8"
 fastapi = "^0.68.1"
 expects = "^0.9.0"
 mamba = "^0.11.2"
+mockito = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.15.0"
